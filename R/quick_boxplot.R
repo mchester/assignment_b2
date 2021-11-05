@@ -1,7 +1,7 @@
 #' boxplot quick function
 #'
 #' this function creates a quick boxplot for visualizing
-#' categorical and continuous variables
+#' categorical and continuous variables in ggplot2
 #'
 #' @param x is a categorical variable from column in dataset (diagonosis)
 #' @param y is a continuous variable from column in dataset (select any continuous column)
@@ -21,3 +21,4 @@ quick_boxplot <- function(data, x, y, na.rm = FALSE) {
     ggplot2::geom_boxplot()
 }
 
+quick.boxplot::
