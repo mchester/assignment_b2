@@ -19,6 +19,8 @@ install.packages("quick.boxplot")
 
 And the development version from [GitHub](https://github.com/) with:
 
+You can install this package with:
+
 ``` r
 # install.packages("devtools")
 devtools::install_github("mchester/assignment_b2")
