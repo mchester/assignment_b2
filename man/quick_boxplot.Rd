@@ -22,7 +22,7 @@ the function will keep NA values
 the function will be tested for the creation and printing of the object, as well as correct axis labels
 }
 \examples{
-quick_boxplot(cancer_sample, diagnosis, perimeter_mean)
-quick_boxplot(cancer_sample, diagnosis, symmetry_mean)
-quick_boxplot(cancer_sample, diagnosis, area_mean)
+quick_boxplot(datateachr::cancer_sample, diagnosis, perimeter_mean)
+quick_boxplot(datateachr::cancer_sample, diagnosis, symmetry_mean)
+quick_boxplot(datateachr::cancer_sample, diagnosis, area_mean)
 }
