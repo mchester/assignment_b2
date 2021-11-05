@@ -20,5 +20,3 @@ quick_boxplot <- function(data, x, y, na.rm = FALSE) {
   (ggplot2::ggplot(data, ggplot2::aes({{x}}, {{y}}))) +
     ggplot2::geom_boxplot()
 }
-
-quick.boxplot::

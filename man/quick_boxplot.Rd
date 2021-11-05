@@ -20,7 +20,7 @@ a tidy, simple boxplot
 }
 \description{
 this function creates a quick boxplot for visualizing
-categorical and continuous variables
+categorical and continuous variables in ggplot2
 }
 \details{
 the function will keep NA values
