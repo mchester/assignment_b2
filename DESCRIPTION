@@ -1,6 +1,6 @@
 Package: quick.boxplot
 Title: This package makes boxplots, fast 
-Version: 0.0.0.9000
+Version: 1.0.0.0000
 Authors@R: 
     person("Marshall", "Chester", , "marshall.chester@alumni.ubc.ca", role = c("aut", "cre"))
 Description: This package creates boxplots from inputted datasets, as well as categorical (x) and continuous (y) variables in ggplot2.  
