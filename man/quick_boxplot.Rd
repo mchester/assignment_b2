@@ -2,20 +2,25 @@
 % Please edit documentation in R/quick_boxplot.R
 \name{quick_boxplot}
 \alias{quick_boxplot}
-\title{boxplot quick function
-this function creates a quick boxplot for visualizing
-categorical and continuous variables}
+\title{boxplot quick function}
 \usage{
 quick_boxplot(data, x, y, na.rm = FALSE)
+}
+\arguments{
+\item{data}{is the cancer_sample dataset from datateachr}
+
+\item{x}{is a categorical variable from column in dataset (diagonosis)}
+
+\item{y}{is a continuous variable from column in dataset (select any continuous column)}
+
+\item{na.rm}{will keep 'NA' values in the boxplot}
 }
 \value{
 a tidy, simple boxplot
 }
 \description{
-'quick_boxplot' returns a ggplot2 boxplot with
-'x' being categorical,
-'y' being continuous variables and
-'na.rm' being the keeping of NA values
+this function creates a quick boxplot for visualizing
+categorical and continuous variables
 }
 \details{
 the function will keep NA values

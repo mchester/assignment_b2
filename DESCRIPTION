@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Marshall", "Chester", , "marshall.chester@alumni.ubc.ca", role = c("aut", "cre"))
 Description: This package creates boxplots from inputted datasets, as well as categorical (x) and continuous (y) variables in ggplot.  
-License: use_mit_license("Marshall Chester")
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

@@ -1,14 +1,12 @@
 #' boxplot quick function
+#'
 #' this function creates a quick boxplot for visualizing
 #' categorical and continuous variables
 #'
-#' 'quick_boxplot' returns a ggplot2 boxplot with
-#' 'x' being categorical,
-#' 'y' being continuous variables and
-#' 'na.rm' being the keeping of NA values
-#'
-#' @params {{x}} is a categorical variable from column in dataset (diagonosis)
-#' @params {{y}} is a continuous variable from column in dataset (select any continuous column)
+#' @param x is a categorical variable from column in dataset (diagonosis)
+#' @param y is a continuous variable from column in dataset (select any continuous column)
+#' @param data is the cancer_sample dataset from datateachr
+#' @param na.rm will keep 'NA' values in the boxplot
 #' @return a tidy, simple boxplot
 #' @details the function will keep NA values
 #' @details the function will be tested for the creation and printing of the object, as well as correct axis labels
