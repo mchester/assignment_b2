@@ -1,14 +1,13 @@
 Package: quick.boxplot
-Title: This package makes boxplots, fast. 
+Title: This package makes boxplots, fast 
 Version: 0.0.0.9000
 Authors@R: 
-    person("Marshall", "Chester", , "marshall.chester@alumni.ubc.ca", role = c("aut", "cre"),
-           comment = c(ORCID = "mchester"))
+    person("Marshall", "Chester", , "marshall.chester@alumni.ubc.ca", role = c("aut", "cre"))
 Description: This package creates boxplots from inputted datasets, as well as categorical (x) and continuous (y) variables in ggplot.  
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file license
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Suggests: testthat
+Imports: ggplot2, datateachr

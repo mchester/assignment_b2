@@ -12,9 +12,10 @@ quick_boxplot(data, x, y, na.rm = FALSE)
 a tidy, simple boxplot
 }
 \description{
-boxplot quick function
-this function creates a quick boxplot for visualizing
-categorical and continuous variables
+'quick_boxplot' returns a ggplot2 boxplot with
+'x' being categorical,
+'y' being continuous variables and
+'na.rm' being the keeping of NA values
 }
 \details{
 the function will keep NA values
