@@ -5,7 +5,7 @@
 #'
 #' @param x is a categorical variable from column in dataset (diagonosis)
 #' @param y is a continuous variable from column in dataset (select any continuous column)
-#' @param data is the cancer_sample dataset from datateachr
+#' @param data any dataset
 #' @param na.rm will keep 'NA' values in the boxplot
 #' @return a tidy, simple boxplot
 #' @details the function will keep NA values
