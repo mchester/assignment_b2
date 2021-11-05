@@ -7,7 +7,7 @@
 quick_boxplot(data, x, y, na.rm = FALSE)
 }
 \arguments{
-\item{data}{is the cancer_sample dataset from datateachr}
+\item{data}{any dataset}
 
 \item{x}{is a categorical variable from column in dataset (diagonosis)}
 
