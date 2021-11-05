@@ -1,0 +1,29 @@
+---
+title: "Learn how to use quick.boxplot"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Learn how to use quick.boxplot}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(quick.boxplot)
+```
+
+This package creates boxplots from inputted datasets, as well as categorical (x) and continuous (y) variables in ggplot2.
+
+For example:
+
+```{r example}
+quick_boxplot(datateachr::cancer_sample, diagnosis, perimeter_mean)
+```
+
+We hope this saves some time in the visualization of data. 
