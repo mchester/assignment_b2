@@ -9,9 +9,9 @@ quick_boxplot(data, x, y, na.rm = FALSE)
 \arguments{
 \item{data}{any dataset}
 
-\item{x}{is a categorical variable from column in dataset (diagonosis)}
+\item{x}{is a categorical variable in the dataset}
 
-\item{y}{is a continuous variable from column in dataset (select any continuous column)}
+\item{y}{is a continuous variable in the dataset}
 
 \item{na.rm}{will keep 'NA' values in the boxplot}
 }
