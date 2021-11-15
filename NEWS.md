@@ -1,3 +1,3 @@
 # quick.boxplot 1.0.0.0000
 
-* Added a `NEWS.md` file to track changes to the package.
+### 11/15/2021: Version 1.0.0.0000 has been released!
