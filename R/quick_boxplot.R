@@ -3,8 +3,8 @@
 #' this function creates a quick boxplot for visualizing
 #' categorical and continuous variables in ggplot2
 #'
-#' @param x is a categorical variable from column in dataset (diagonosis)
-#' @param y is a continuous variable from column in dataset (select any continuous column)
+#' @param x is a categorical variable in the dataset
+#' @param y is a continuous variable in the dataset
 #' @param data any dataset
 #' @param na.rm will keep 'NA' values in the boxplot
 #' @return a tidy, simple boxplot
