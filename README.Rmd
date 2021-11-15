@@ -45,4 +45,4 @@ quick_boxplot(datateachr::cancer_sample, diagnosis, area_mean)
 quick_boxplot(gapminder:: gapminder, continent, lifeExp)
 ```
 
-This package is special it saves you from repeating code in the visualization of the difference of means between categorical and continuous variables. 
+This package is special because it saves you from repeating code in the visualization of the difference of means between categorical and continuous variables. 

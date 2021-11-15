@@ -43,6 +43,6 @@ quick_boxplot(gapminder:: gapminder, continent, lifeExp)
 
 <img src="man/figures/README-example-2.png" width="100%" />
 
-This package is special it saves you from repeating code in the
+This package is special because it saves you from repeating code in the
 visualization of the difference of means between categorical and
 continuous variables.
